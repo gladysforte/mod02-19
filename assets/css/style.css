@@ -1,0 +1,27 @@
+/*
+*
+* CSS Reset
+*
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*
+*
+* General Rules
+*
+*/
+
+.fontMain {
+	
+	font-family: 'Hind Siliguri', sans-serif;
+	
+}
+
+.fontBody {
+	font-family: 'Abril Fatface', cursive;
+}
