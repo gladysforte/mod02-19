@@ -16,12 +16,51 @@
 *
 */
 
-.fontMain {
-	
+.navbar > h1 {
+
 	font-family: 'Hind Siliguri', sans-serif;
 	
 }
 
-.fontBody {
+.fontCommon {
 	font-family: 'Abril Fatface', cursive;
+}
+
+
+.navbar > .collapse > form > input[type=text] {
+    width: 75px;
+    -webkit-transition: width 0.5s ease;
+    transition: width 0.5s ease;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.navbar > .collapse > form > input[type=text]:focus {
+    width: 200px;
+}
+
+.form-rounded {
+
+    border-radius: 25px;
+    border: 2px solid pink;
+    
+}
+
+a > h4 {
+    text-decoration: none;
+    
+    color: black;
+}
+
+.navbarBG {
+    background-color: #dbd2d2;
+    color: white;
+}
+
+main#wrapper {
+    background-color: #f0c3d5;
+}
+
+.portrait {
+    height: 80px;
+    max-width: 100%;
 }
