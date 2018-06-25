@@ -16,14 +16,23 @@
 *
 */
 
-.navbar > h1 {
 
-	font-family: 'Hind Siliguri', sans-serif;
+
+nav > div > a > h1 {
+
+    font-family: 'Playball', cursive;
+    color: white;
 	
 }
 
-.fontCommon {
-	font-family: 'Abril Fatface', cursive;
+.colorCommon {
+    color: #5a3c55;
+}
+
+
+
+main {
+	font-family: 'Magra', sans-serif;
 }
 
 
@@ -41,8 +50,7 @@
 .form-rounded {
 
     border-radius: 25px;
-    border: 2px solid pink;
-    
+    border: 2px solid pink;   
 }
 
 a > h4 {
@@ -63,4 +71,45 @@ main#wrapper {
 .portrait {
     height: 80px;
     max-width: 100%;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+div.site-instagram {
+
+}   
+
+.site-instagram {
+    position: relative;
+
+}
+
+.img-overlay {
+    position: absolute;
+    z-index: 99;
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+    margin-top: -120px;
+    width: 100%;
+    height: 0;
+
+}
+
+.photo {
+    width: 100%;
+}
+
+.centerFont {
+    text-align: center;
+}
+
+footer > div > div > nav {
+      padding-left: 0;
+  padding-right: 0;
 }
